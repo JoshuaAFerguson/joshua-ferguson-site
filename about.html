@@ -4,28 +4,65 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>About | Joshua Ferguson</title>
-  <meta name="description" content="About Joshua Ferguson, founder of VeriSwarm and infrastructure engineer." />
+  <meta name="description" content="About Joshua Ferguson — founder of VeriSwarm, infrastructure engineer, and AI governance advocate." />
   <link rel="canonical" href="https://joshua-ferguson.com/about.html" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+  <meta property="og:type" content="profile" />
+  <meta property="og:title" content="About Joshua Ferguson" />
+  <meta property="og:description" content="Founder of VeriSwarm, infrastructure engineer, and AI governance advocate." />
+  <meta property="og:url" content="https://joshua-ferguson.com/about.html" />
+  <meta property="og:site_name" content="Joshua Ferguson" />
+  <meta property="og:image" content="https://joshua-ferguson.com/assets/img/joshua-ferguson.png" />
+  <meta property="profile:first_name" content="Joshua" />
+  <meta property="profile:last_name" content="Ferguson" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="About Joshua Ferguson" />
+  <meta name="twitter:description" content="Founder of VeriSwarm, infrastructure engineer, and AI governance advocate." />
+  <meta name="twitter:image" content="https://joshua-ferguson.com/assets/img/joshua-ferguson.png" />
+
   <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Joshua Ferguson",
+    "url": "https://joshua-ferguson.com/",
+    "image": "https://joshua-ferguson.com/assets/img/joshua-ferguson.png",
+    "jobTitle": "Founder",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "VeriSwarm",
+      "url": "https://veriswarm.ai/"
+    },
+    "knowsAbout": ["AI agents", "AI governance", "Infrastructure engineering", "Kubernetes", "Terraform"],
+    "sameAs": [
+      "https://www.linkedin.com/in/joshuaaferguson",
+      "https://github.com/JoshuaAFerguson",
+      "https://sessionize.com/JoshuaFerguson/",
+      "https://veriswarm.ai/"
+    ]
+  }
+  </script>
 </head>
 <body>
   <header class="site-header"><a class="brand" href="index.html">Joshua Ferguson</a><nav class="nav"><a href="about.html">About</a><a href="projects.html">Projects</a><a href="writing.html">Writing</a><a href="speaking.html">Speaking</a><a href="press.html">Press</a><a href="contact.html">Contact</a></nav></header>
   <main class="content">
     <p class="eyebrow">About</p>
     <h1>Joshua Ferguson</h1>
-    <p class="lede">Joshua Ferguson is the founder of VeriSwarm and a systems and infrastructure engineer.</p>
+    <p class="lede">I'm the founder of <a href="https://veriswarm.ai/">VeriSwarm</a>. Before that, I was an infrastructure engineer. I've been building and running production systems for most of my career.</p>
 
-    <h2>Short Bio</h2>
-    <p>Joshua Ferguson is the founder of VeriSwarm, where he is building trust and security infrastructure for AI agents. His work is focused on the controls organizations need before autonomous systems can be trusted in production, especially in regulated environments.</p>
-
-    <h2>Current Work</h2>
-    <p>At VeriSwarm, his focus is on identity, policy enforcement, audit trails, and verifiable evidence for AI systems. The premise is simple: if an organization cannot inspect, govern, and prove what an agent did, it cannot responsibly deploy that agent in a high-trust environment.</p>
+    <h2>What I'm Doing Now</h2>
+    <p>I started VeriSwarm to solve a problem I kept running into: organizations want to use AI agents in production, but they have no way to verify what those agents actually do. No identity, no audit trail, no evidence. That's a non-starter in any regulated environment.</p>
+    <p>So that's what we're building — the infrastructure that lets companies deploy AI agents and actually prove what happened. Identity, policy enforcement, audit trails, verifiable evidence. The stuff that has to exist before anyone in finance, healthcare, or government will sign off on an autonomous system.</p>
 
     <h2>Background</h2>
-    <p>Before founding VeriSwarm, Joshua worked as an Infrastructure Architect running workloads across multiple global data centers. He has built Kubernetes-native platforms, worked extensively with Terraform, and shipped infrastructure into environments where downtime and control failures carry real operational and regulatory consequences.</p>
+    <p>I came to this from the infrastructure side. I worked as an Infrastructure Architect running workloads across multiple global data centers. Kubernetes-native platforms, Terraform, production environments where downtime means real consequences — regulatory, operational, financial. That experience is why I think about AI deployment the way I do. The governance problems aren't theoretical to me; they're the same class of problems I've been dealing with in a different form.</p>
 
-    <h2>Public Profile</h2>
-    <p>He also maintains a public speaking profile on Sessionize, writes about AI systems and ethics, and publishes technical work and curriculum through GitHub.</p>
+    <h2>Elsewhere</h2>
+    <p>I have a speaking profile on <a href="https://sessionize.com/JoshuaFerguson/">Sessionize</a>, I publish open-source work and curriculum on <a href="https://github.com/JoshuaAFerguson">GitHub</a>, and I write about AI governance and the practical side of getting autonomous systems into production.</p>
   </main>
   <footer class="site-footer"><p>© <span id="year"></span> Joshua Ferguson.</p></footer>
   <script src="assets/js/main.js"></script>
