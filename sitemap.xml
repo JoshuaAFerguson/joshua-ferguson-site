@@ -1,10 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://joshua-ferguson.com/</loc></url>
-  <url><loc>https://joshua-ferguson.com/about.html</loc></url>
-  <url><loc>https://joshua-ferguson.com/projects.html</loc></url>
-  <url><loc>https://joshua-ferguson.com/writing.html</loc></url>
-  <url><loc>https://joshua-ferguson.com/speaking.html</loc></url>
-  <url><loc>https://joshua-ferguson.com/press.html</loc></url>
-  <url><loc>https://joshua-ferguson.com/contact.html</loc></url>
+<urlset
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://joshua-ferguson.com/</loc>
+    <lastmod>2026-05-19</lastmod>
+  </url>
+  <url>
+    <loc>https://joshua-ferguson.com/about.html</loc>
+    <lastmod>2026-05-19</lastmod>
+  </url>
+  <url>
+    <loc>https://joshua-ferguson.com/projects.html</loc>
+    <lastmod>2026-05-19</lastmod>
+  </url>
+  <url>
+    <loc>https://joshua-ferguson.com/writing.html</loc>
+    <lastmod>2026-05-19</lastmod>
+  </url>
+  <url>
+    <loc>https://joshua-ferguson.com/speaking.html</loc>
+    <lastmod>2026-05-19</lastmod>
+  </url>
+  <url>
+    <loc>https://joshua-ferguson.com/press.html</loc>
+    <lastmod>2026-05-19</lastmod>
+  </url>
+  <url>
+    <loc>https://joshua-ferguson.com/contact.html</loc>
+    <lastmod>2026-05-19</lastmod>
+  </url>
+  <url>
+    <loc>https://resume.joshua-ferguson.com/</loc>
+  </url>
 </urlset>
